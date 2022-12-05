@@ -5,35 +5,43 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
+  <style> @import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap'); </style>
   <title>Calculator</title>
 </head>
 <body>
   <section class="calculator">
-    <div class="result">Results here</div>
+    <div id="result">
+      <p class="previousOperand"></p>
+      <p class="currentOperand"></p>
+    </div>
     <div class="lineOne">
-      <button id="one">1</button>
-      <button id="two">2</button>
-      <button id="three">3</button>
-      <button id="divide">÷</button>
+      <button class="clearAll">AC</button>
+      <button class="delete">Del</button>
+      <button class="operator">x</button>
     </div>
     <div class="lineTwo">
-      <button id="four">4</button>
-      <button id="five">5</button>
-      <button id="six">6</button>
-      <button id="multiple">x</button>
+      <button class="number">1</button>
+      <button class="number">2</button>
+      <button class="number">3</button>
+      <button class="operator">÷</button>
     </div>
     <div class="lineThree">
-      <button id="seven">7</button>
-      <button id="eight">8</button>
-      <button id="nine">9</button>
-      <button id="minus">-</button>
+      <button class="number">4</button>
+      <button class="number">5</button>
+      <button class="number">6</button>      
+      <button class="operator">+</button>
     </div>
     <div class="lineFour">
-      <button id="zero">0</button>
-      <button id="decimal">.</button>
-      <button id="equals">=</button>
-      <button id="plus">+</button>
+      <button class="number">7</button>
+      <button class="number">8</button>
+      <button class="number">9</button>
+      <button class="operator">-</button>      
+    </div>
+    <div class="lineFive">
+      <button class="number">.</button>
+      <button class="number">0</button>
+      <button class="equals">=</button>
     </div>
   </section>
 </body>
