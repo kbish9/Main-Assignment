@@ -34,7 +34,8 @@ button:hover {
   border: 2px solid #172854;
   border-radius: 5px;
   margin: 5px;
-  min-height: 100px;
+  min-height: 120px;
+  max-height: 120px;
   text-align: right;
   word-wrap: break-word;
   word-break: break-all;
