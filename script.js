@@ -46,7 +46,7 @@ class Calculator {
       default:
         return
     }
-    this.currentOperand = computation.toFixed(4)
+    this.currentOperand = computation
     this.operator = undefined
     this.previousOperand = ''
   }
