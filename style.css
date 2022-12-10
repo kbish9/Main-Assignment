@@ -29,11 +29,11 @@ button:hover {
   transition-delay: 0.1s;
 }
 #result {
+  font-size: 24px;
   background-color: #d7e1fc;
   border: 2px solid #172854;
   border-radius: 5px;
   margin: 5px;
-  min-height: 100px;
   text-align: right;
   word-wrap: break-word;
   word-break: break-all;
